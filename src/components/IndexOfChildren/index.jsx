@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import HeaderKids from "../Header/ChildrensHeader/Header";
 import "./index.css";
 import { Link } from "react-router-dom";
-import Reveal from "react-reveal/Fade";
+//import Reveal from "react-reveal/Fade";
 import Girl from "../../img/header/header-girl.png";
 import Boy from "../../img/header/header-boy.png";
 import Jabier from "../../img/card-button/jabier-jabon.png";
@@ -11,6 +11,8 @@ import Pencil from "../../img/card-button/pencil.png";
 import Play from "../../img/card-button/play.png";
 import Paragraph from "../Children/Paragraph";
 import "./index.css";
+import ButtonLeft from '../Button/ButtonLeft'
+import ButtonRightA from '../Button/ButtonRight'
 
 const CardButton = (props) => {
   return (
@@ -40,6 +42,14 @@ const IndexOfChildren = () => {
                 <CardButton img={Play} />
             </Link>
           </div>
+      </div>
+      <div className='ButtonsLR'>
+        <Link to='/'>
+          <ButtonLeft/>
+        </Link>
+        <Link to='/'>
+          <ButtonRightA/>
+        </Link>
       </div>
     </Fragment>
   );

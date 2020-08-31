@@ -12,8 +12,8 @@ const HeaderKids = (props) => {
                     <Navbar />
                 </div>
                 <div className='imageContainer'>
-                    <img src={props.leftImage}  alt='header-image' /> 
-                    <img src={props.rightImage} alt='header-image' />
+                    <img src={props.leftImage}  alt='headerImage' /> 
+                    <img src={props.rightImage} alt='headerimage' />
                 </div>
             </div>
         </Fragment>
