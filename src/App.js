@@ -4,7 +4,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
+
 import Children from './components/Children/Children'
 import Inicio from './components/Inicio/Inicio'
 import Adulto from './components/Adultos/Adultos'
